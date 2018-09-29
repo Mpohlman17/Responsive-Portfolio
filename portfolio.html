@@ -3,60 +3,70 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
+  <title>Portfolio | Michael Pohlman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
 
+
 <body>
+  <div class="header">
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <div class="col-4" id="logo">
+      <h1>Michael Pohlman</h1>
     </div>
-  </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
+    <div class="col-8" id="nav">
+      <a href="index.html"><span>About</span></a>
+      <a href="portfolio.html"><span>Portfolio</span></a>
+      <a href="contact.html"><span>Contact</span></a>
+    </div>
+  </div>
 
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-        
-        <h3>Word Guess</h3>
+
+  <div class="row">
+    <div class="col-8">
+      <div id="portfolio">
+        <div class="main-section" id="main-container">
+
+          <h2>Portfolio</h2>
+          <hr>
+          <ul>
+            <li>
+              <a href="#"><img src="assets/images/technics-q-c-640-480-1.jpg" height="110px">
+                <div class="label">Hangman</div>
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="assets/images/technics-q-c-640-480-2.jpg" height="110px">
+                <div class="label">RPG Game</div>
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="assets/images/technics-q-c-640-480-5.jpg" height="110px">
+                <div class="label">Trivia Game</div>
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="assets/images/technics-q-c-640-480-7.jpg" height="110px">
+                <div class="label">Rutgers Widget App</div>
+              </a>
+            </li>
+            <li>
+              <a href="#"><img src="assets/images/technics-q-c-640-480-9.jpg" height="110px">
+                <div class="label">Rock Paper Scissors</div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
+    </div>
   </div>
 
   <footer>
-    <div class="container">
-      Copyright &copy; 
+    <div class="footer">
+      Copyright Michael Pohlman &copy;
     </div>
   </footer>
 </body>
